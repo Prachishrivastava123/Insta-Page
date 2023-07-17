@@ -1,0 +1,150 @@
+   *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+   }
+   body{
+       background-color: white;
+       display: grid;
+       place-items: center;
+       
+   }
+       
+
+.main{
+    display: grid;
+    place-items: center;
+    padding:2rem;
+   background-image: linear-gradient(to bottom right, #644dcf, #cc2984, #ee5f3e);
+   width: 65%;
+   height: 90%;
+   border-radius: 1rem;
+}
+
+.Insta{
+    font-family: cursive;
+    padding: 1rem ;
+    margin: 1rem;
+    font-size: 3rem;
+    font-weight: 600;
+    color: white;
+    
+
+} 
+.p{
+    padding: 0.5rem;
+    margin: 0.3rem ;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+
+
+} 
+  .p img{
+    width: 1.5rem;
+    position: absolute;
+    top: 5.5rem;
+    right: 6rem
+  }
+
+input{
+    padding:0.8rem ;
+    width: 75%;
+    margin-top: 1rem;
+    border-radius: 0.5rem;
+    outline: none;
+    border: none;
+    
+    
+} 
+.For{
+    text-align: right;
+    color: white;
+    width: 70%;
+
+}
+
+.L{ 
+    margin-top: 0.5 ;
+    padding: 0.8rem;
+   background-color: #0296fb;
+   color: #fff; 
+   width: 75%;
+   border-radius: 0.5rem;
+   border: none;
+   outline: none;
+font-size: 1.2rem;
+font-weight: 600;
+
+
+}  
+
+    .O{
+        position: relative;
+        margin: 0.5rem;
+        padding: 0.5rem;
+        color: #fff;
+
+    }
+    .O::before{
+        content: "";
+        width: 20rem;
+        height: 0.09px;
+        background-color: #fff;
+        position: absolute;
+        top: 1rem;
+        left: 3rem;
+
+    }
+    .O::after{
+        content: "";
+        width: 20rem;
+        height: 0.09px;
+        background-color: #fff;
+        position: absolute;
+        top: 1rem;
+        right: 3rem;
+
+    }
+ .Page{
+    margin: 0.5rem;
+    padding: 0.5rem;
+    color: #fff;
+    font-weight: 700;
+ }
+
+
+.Foot{ 
+    margin: 3rem;
+    padding: 3rem;
+    color: #fff;
+    font-weight: 600;
+    position: relative;
+} 
+.Foot::before{
+    content: "";
+    width: 63.3rem;
+    height: 0.09px;
+    background-color: #fff;
+    position: absolute;
+    top: 1rem;
+    left: -22rem;
+}
+.pra{
+    width: 100%;
+    display: grid;
+    place-items: center;
+    margin-top: 1rem;
+}
+.Face{
+    display:flex;
+    align-items: center;
+    justify-content: center ;
+} 
+.Face img{
+    width: 20px;
+
+}
